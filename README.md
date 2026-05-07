@@ -1,21 +1,7 @@
-# Next.js template
+# Pokemon Cards Finder
 
-This is a Next.js template with shadcn/ui.
+Simple project to learn about fetching data from URL. Thanks to `tcgdex.dev` for providing the API. 
 
-## Adding components
+This project is made with Next.js, helped with `motion` for interactivity and `shadcn` for premade components. If there are any feedbacks or discussions, I'm very open to talk to.
 
-To add components to your app, run the following command:
-
-```bash
-npx shadcn@latest add button
-```
-
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+Thank you.
