@@ -9,7 +9,7 @@ export default function About(){
             <div className='text-xs md:text-sm'>
                 <p>Simple website to find a Pokemon TCG cards. All card resources retrieved from <Link className="text-primary-foreground dark:text-primary font-semibold" href="https://tcgdex.dev/">TCGDex</Link> through API.</p>
                 <p>
-                Tech stack I used in this projects:
+                Tech stack I used in this project:
                 </p>
                 <div className='flex-col flex'>
                     <div className='flex items-center-safe gap-2'>
