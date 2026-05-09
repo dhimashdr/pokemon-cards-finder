@@ -30,7 +30,7 @@ function SearchBar(){
     return (
         // <Input placeholder='Pokemon you want to find...' onChange={(e) => handleSearch(e.target.value)}/>
         <InputGroup id='searchbar' className="max-w-xs transition-all">
-            <InputGroupInput id='searchbar' autoComplete='off' placeholder="Search Pokemon with at least 3 letters" onChange={(e) => handleSearch(e.target.value)} defaultValue={searchParams.get('search')?.toString()}/>
+            <InputGroupInput id='searchbar' autoComplete='off' placeholder="e.g. pika..." onChange={(e) => handleSearch(e.target.value)} defaultValue={searchParams.get('search')?.toString()}/>
             <InputGroupAddon id='searchbar'>
                 <Search />
             </InputGroupAddon>

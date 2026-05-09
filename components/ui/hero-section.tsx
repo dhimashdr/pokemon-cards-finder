@@ -26,11 +26,11 @@ const slideUp = {
 
 export default function HeroSection(){
     return (
-        <div className="flex flex-col md:flex-row pt-10 w-full md:bg-cover md:bg-[url('/assets/bg-image.svg')] justify-center gap-8 md:gap-24 items-center-safe">
+        <div className="flex flex-col md:flex-row md:px-16 pt-10 w-full md:bg-cover md:bg-[url('/assets/bg-image.svg')] justify-center gap-8 md:gap-24 items-center-safe">
             <div className="text-center px-8 md:px-0 md:text-left">
                 <m.h1 className="font-bold text-3xl lg:text-5xl" variants={slideUp} initial='mulai' animate='berhenti' transition={{duration: 0.5, ease: 'linear'}}>Pokemon <span className='dark:text-primary text-primary-foreground'>Finder</span></m.h1>
                 <m.p className="font-light text-xs lg:text-sm" variants={slideUp} initial='mulai' animate='berhenti' transition={{duration: 0.5, ease: 'linear'}}>
-                    Find Pokemon TCG cards and click for the details. You can switch the language as well.
+                    Find Pokemon TCG cards and click for the details. You can switch the language as well. Type at least the first three letters of the Pokemon's name.
                 </m.p>
             </div>
             <div>
