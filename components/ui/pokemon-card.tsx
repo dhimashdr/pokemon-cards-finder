@@ -36,7 +36,7 @@ export default async function PokemonCard({name, lang} : Pokemon){
     const data = await FetchPokemon({name, lang})
     
     return (
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8">
             {data.length > 0 ? data.map((e : PokemonData) => {
                 return (
                     e.image && <div key={e.id}>
@@ -46,7 +46,7 @@ export default async function PokemonCard({name, lang} : Pokemon){
                         </Link>
                     </div>
                 )
-            }) : <div className="col-span-2 md:col-span-3 lg:col-span-5 mx-auto">Not found</div>}
+            }) : <div className="col-span-2 md:col-span-4 lg:col-span-5 mx-auto">Not found</div>}
         </div>
     )
 }
