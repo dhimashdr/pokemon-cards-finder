@@ -26,7 +26,7 @@ export default function About(){
                     </div>
                     <div className='flex items-center-safe gap-2'>
                         <div className='h-2 w-2 dark:bg-primary-foreground bg-primary rounded-sm'></div>
-                        <p className='font-light italic'><Link href="https://ui.shadcn.com/" className='font-semibold bg-accent not-italic'>TailwindCSS</Link> for styling</p>
+                        <p className='font-light italic'><Link href="https://tailwindcss.com/" className='font-semibold bg-accent not-italic'>TailwindCSS</Link> for styling</p>
                     </div>
                 </div>
             </div>

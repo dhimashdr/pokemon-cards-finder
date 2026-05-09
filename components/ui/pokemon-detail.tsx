@@ -17,7 +17,7 @@ interface CardsInfo{
 export default function PokemonDetail({ name, id, image, illustrator, set, rarity } : CardsInfo){
 
     return (
-        <div className="flex flex-col md:flex-row mx-auto w-full justify-center items-center gap-32 h-screen">
+        <div className="flex flex-col md:flex-row mx-auto w-full justify-center items-center gap-8 md:gap-16 lg:gap-32 h-screen">
             <div className=''>
                 <img src={`${image}/high.webp`} alt={id} draggable='false' className='h-96 object-contain mx-auto rounded-sm drop-shadow-card-foreground/30 drop-shadow-lg'/>
             </div>

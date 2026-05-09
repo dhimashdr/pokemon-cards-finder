@@ -33,6 +33,7 @@ export default async function Page({
               <PokemonCard name={queryName} lang={queryLang}></PokemonCard>
         </Suspense>
       </div>
+      <br />
     </div>
   )
 }
